@@ -1,0 +1,45 @@
+import sys, time
+
+#Just makes the printing look cooler \/
+def write(text, speed):
+    for char in text:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(speed)
+    print("")
+
+#Actual code
+print("-----Task 1-----")
+write("Enter a number: ",0.02)
+num1 = int(input())
+write("Enter another number: ",0.02)
+num2 = int(input())
+print(num1+num2)
+time.sleep(.5)
+
+print("\n-----Task 2-----")
+write("Enter a number: ",0.02)
+num1 = float(input())
+write("Enter a number: ",0.02)
+num2 = float(input())
+write("Enter a number: ",0.02)
+num3 = float(input())
+avg = ((num1+num2+num3)/3)
+print(avg)
+time.sleep(.5)
+
+print("\n-----Task 3-----")
+write("Enter the temperature in Celsius",0.02)
+celsius = float(input())
+fahrenheit = (celsius*9/5)+32
+print(fahrenheit)
+time.sleep(.5)
+
+print("\n-----Task 4-----")
+write("Enter a decimal number: ",0.02)
+num = float(input())
+rounded = round(num)
+integer = int(num)
+print(integer)
+print(rounded)
+
