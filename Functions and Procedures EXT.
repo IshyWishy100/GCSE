@@ -1,0 +1,36 @@
+Task 1:
+def calculate_sale_price(original_price, discount_percent):
+    new_price = original_price - ((discount_percent/original_price)*100)
+    return new_price
+
+final = calculate_sale_price(100, 25)
+print(final)
+    
+Task 2:
+def get_ticket_cost(age):
+    if age < 5:
+        return 0
+    elif age >= 5 and age <= 17:
+        return 10
+    elif age >= 18:
+        return 20
+
+price = get_ticket_cost(50000000000)
+print(price)
+
+Task 3:
+!!!TO FINISH!!!
+vowels = ["a", "e", "i", "o", "u"]
+def count_vowels(word):
+    vowels_in_word = []
+    itr_count = 0
+    count = 0
+    for char in word:
+        
+        if vowels in word.lower():
+            count += 1
+
+    return count
+
+total = count_vowels("cheese")
+print(total)
