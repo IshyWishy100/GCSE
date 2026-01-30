@@ -1,0 +1,41 @@
+Task 1:
+A) 3
+B) Mickey Mouse
+   92 years old
+
+Task 2:
+def answerYorN():
+    while True:
+        answer = input("Y or N?").upper()
+        if answer == "Y":
+            return "Y"
+        elif answer== "N":
+            return "N"
+        else:
+            print("Enter Y or N.")
+            continue
+
+Task 3:
+def addIntegers(a, b):
+    total = 0
+    for i in range(a, b+1):
+        total += a
+        a += 1
+    print(total)
+
+Task 4:
+1)
+A) 7.50
+B) i: 
+    for i = 0 to prices.length
+        total = total + prices[i]
+    next i
+
+  total:
+    for i = 0 to prices.length
+        total = total + prices[i]
+        next i
+        return total
+    end function
+
+2) Finds the area of the triangle from the base and height. Error: area = halfBasee * height
