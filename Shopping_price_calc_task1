@@ -1,0 +1,11 @@
+item_name = input("Enter item name")
+item_price = int(input("Enter item price:"))
+dis_card = input("Discount card? 'True'/'False'")
+bool(dis_card)
+
+item_data = {
+    name: item_name
+    price: 0
+    discount_card? = dis_card
+}
+
