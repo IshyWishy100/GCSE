@@ -1,11 +1,10 @@
 item_name = input("Enter item name")
 item_price = int(input("Enter item price:"))
-dis_card = input("Discount card? 'True'/'False'")
-bool(dis_card)
+dis_card = input("Discount card? 'True'/'False'").lower()
 
-item_data = {
-    name: item_name
-    price: 0
-    discount_card? = dis_card
-}
-
+if dis_card == "true":
+    item_price-=(item_price/100)*25
+else:
+    pass
+print(item_name)
+print(item_price)
