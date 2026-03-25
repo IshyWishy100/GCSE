@@ -1,0 +1,26 @@
+#task 1 - Find The Factorial
+num = int(input("Enter number: "))
+
+total = 1
+
+for i in range(num, 0, -1):
+    total *= i
+
+print(total)
+
+#Task 2 - Reverse it
+sentence = input("Enter a sentence to be reversed: ")
+
+vowels = ["a", "e", "i", "o", "u"]
+vowels_num = 0
+cons_num = 0
+
+for i in range(len(sentence)):
+    if sentence[i] in vowels:
+        vowels_num += 1
+    else:
+        cons_num += 1
+
+print(sentence[::-1])
+print(f"Number of consonants: {cons_num}")
+print(f"Number of vowels: {vowels_num}")
